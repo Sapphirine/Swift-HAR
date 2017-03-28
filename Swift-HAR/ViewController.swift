@@ -12,12 +12,18 @@ import CoreMotion
 let manager = CMMotionManager()
 
 class ViewController: UIViewController {
-
+    /*
     @IBOutlet weak var accelXText: UITextField!
     
     @IBOutlet weak var accelYText: UITextField!
   
     @IBOutlet weak var accelZText: UITextField!
+    */
+    
+    @IBOutlet weak var accelXView: UITextView!
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,9 +38,12 @@ class ViewController: UIViewController {
             manager.startAccelerometerUpdates(to: .main) {
                 [weak self] (data: CMAccelerometerData?, error: Error?) in
                 if (data?.acceleration) != nil {
+                    self?.accelXView.text = "Accel-X: " + String(format: "%.2f", (manager.accelerometerData?.acceleration.x)!)
+                    /*
                     self?.accelXText.text = String(format: "%.2f", (manager.accelerometerData?.acceleration.x)!)
                     self?.accelYText.text = String(format: "%.2f", (manager.accelerometerData?.acceleration.y)!)
                     self?.accelZText.text = String(format: "%.2f", (manager.accelerometerData?.acceleration.z)!)
+                    */
                 }
             }
             /*
