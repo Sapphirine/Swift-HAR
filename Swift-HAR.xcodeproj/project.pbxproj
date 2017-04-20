@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79A4917F1EA566F9004E79BD /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A491771EA566F9004E79BD /* Activation.swift */; };
+		79A491801EA566F9004E79BD /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A491781EA566F9004E79BD /* Cache.swift */; };
+		79A491811EA566F9004E79BD /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A491791EA566F9004E79BD /* Config.swift */; };
+		79A491821EA566F9004E79BD /* Cost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4917A1EA566F9004E79BD /* Cost.swift */; };
+		79A491831EA566F9004E79BD /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4917B1EA566F9004E79BD /* Dataset.swift */; };
+		79A491841EA566F9004E79BD /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4917C1EA566F9004E79BD /* NeuralNet.swift */; };
+		79A491851EA566F9004E79BD /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4917D1EA566F9004E79BD /* Storage.swift */; };
+		79A491861EA566F9004E79BD /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A4917E1EA566F9004E79BD /* Structure.swift */; };
 		79B02DF51E86C9A300D8B62F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B02DF41E86C9A300D8B62F /* AppDelegate.swift */; };
 		79B02DF71E86C9A300D8B62F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B02DF61E86C9A300D8B62F /* ViewController.swift */; };
 		79B02DFA1E86C9A300D8B62F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B02DF81E86C9A300D8B62F /* Main.storyboard */; };
 		79B02DFC1E86C9A300D8B62F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79B02DFB1E86C9A300D8B62F /* Assets.xcassets */; };
 		79B02DFF1E86C9A300D8B62F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B02DFD1E86C9A300D8B62F /* LaunchScreen.storyboard */; };
+		79F8DFA51EA2B71000059953 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F8DFA41EA2B71000059953 /* CoreMotion.framework */; };
+		79F8DFA71EA2B71A00059953 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F8DFA61EA2B71A00059953 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79A491771EA566F9004E79BD /* Activation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		79A491781EA566F9004E79BD /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		79A491791EA566F9004E79BD /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		79A4917A1EA566F9004E79BD /* Cost.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cost.swift; sourceTree = "<group>"; };
+		79A4917B1EA566F9004E79BD /* Dataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		79A4917C1EA566F9004E79BD /* NeuralNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNet.swift; sourceTree = "<group>"; };
+		79A4917D1EA566F9004E79BD /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		79A4917E1EA566F9004E79BD /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
 		79B02DF11E86C9A300D8B62F /* Swift-HAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-HAR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B02DF41E86C9A300D8B62F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79B02DF61E86C9A300D8B62F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,8 @@
 		79B02DFB1E86C9A300D8B62F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79B02DFE1E86C9A300D8B62F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79B02E001E86C9A300D8B62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F8DFA41EA2B71000059953 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		79F8DFA61EA2B71A00059953 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F8DFA71EA2B71A00059953 /* CoreData.framework in Frameworks */,
+				79F8DFA51EA2B71000059953 /* CoreMotion.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +62,7 @@
 			children = (
 				79B02DF31E86C9A300D8B62F /* Swift-HAR */,
 				79B02DF21E86C9A300D8B62F /* Products */,
+				79F8DFA31EA2B71000059953 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +77,14 @@
 		79B02DF31E86C9A300D8B62F /* Swift-HAR */ = {
 			isa = PBXGroup;
 			children = (
+				79A491771EA566F9004E79BD /* Activation.swift */,
+				79A491781EA566F9004E79BD /* Cache.swift */,
+				79A491791EA566F9004E79BD /* Config.swift */,
+				79A4917A1EA566F9004E79BD /* Cost.swift */,
+				79A4917B1EA566F9004E79BD /* Dataset.swift */,
+				79A4917C1EA566F9004E79BD /* NeuralNet.swift */,
+				79A4917D1EA566F9004E79BD /* Storage.swift */,
+				79A4917E1EA566F9004E79BD /* Structure.swift */,
 				79B02DF41E86C9A300D8B62F /* AppDelegate.swift */,
 				79B02DF61E86C9A300D8B62F /* ViewController.swift */,
 				79B02DF81E86C9A300D8B62F /* Main.storyboard */,
@@ -62,6 +93,15 @@
 				79B02E001E86C9A300D8B62F /* Info.plist */,
 			);
 			path = "Swift-HAR";
+			sourceTree = "<group>";
+		};
+		79F8DFA31EA2B71000059953 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F8DFA61EA2B71A00059953 /* CoreData.framework */,
+				79F8DFA41EA2B71000059953 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +177,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A491841EA566F9004E79BD /* NeuralNet.swift in Sources */,
+				79A491821EA566F9004E79BD /* Cost.swift in Sources */,
+				79A491831EA566F9004E79BD /* Dataset.swift in Sources */,
 				79B02DF71E86C9A300D8B62F /* ViewController.swift in Sources */,
+				79A4917F1EA566F9004E79BD /* Activation.swift in Sources */,
+				79A491851EA566F9004E79BD /* Storage.swift in Sources */,
+				79A491811EA566F9004E79BD /* Config.swift in Sources */,
+				79A491861EA566F9004E79BD /* Structure.swift in Sources */,
+				79A491801EA566F9004E79BD /* Cache.swift in Sources */,
 				79B02DF51E86C9A300D8B62F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
